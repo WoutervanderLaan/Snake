@@ -1,0 +1,77 @@
+body {
+    position: relative;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    font-size: 2rem;
+    color: black;
+    margin: 100px auto 50px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    border: inset 2px;
+    box-shadow: black 2px 1px 5px;
+}
+
+.highScore {
+    position: absolute;
+    left: 20%;
+}
+
+.highScore {
+    text-align: left;
+}
+
+li {
+    margin: 10px;
+}
+
+.animation {
+    animation-name: flicker;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flicker {
+    from{color: black;}
+    to{color:white}
+
+}
+
+canvas {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: black 20px 10px 50px;
+}
+
+.difficulty {
+    margin: 10px;
+    width: 120px;
+    height: 30px;
+}
+
+.btn {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.btnPress {
+    background-color: white;
+    color: black;
+}
+
+#restart {
+    font-size: 2rem;
+    padding: 10px;
+    visibility: hidden;
+}
+
+#score {
+    margin-top: 50px;
+}

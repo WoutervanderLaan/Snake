@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>TestGame</title>
+</head>
+<body>
+    <div class = "head">
+        <h1>Snake</h1>
+    </div>
+    <div>
+        <p>Select Difficulty:</p>
+        <button class = "difficulty" type="button">Easy</button>
+        <button class = "difficulty btnPress" type="button">Medium</button>
+        <button class = "difficulty" type="button">Hard</button>
+        <p id = "score">Score: 0</p>
+    </div>
+    <div class = "highScore">
+            <p>High Scores:</p>
+        <ol>
+            <li>undefined</li>
+            <li>undefined</li>
+            <li>undefined</li>
+        </ol>
+    </div>
+    <canvas id="canvas1" width="400" height="400"></canvas>
+    <div class = "buttons">
+        <div>
+            <button class = "btn" type="button">W</button>
+        </div>
+        <div>
+            <button class = "btn" type="button">A</button>
+            <button class = "btn" type="button">S</button>
+            <button class = "btn" type="button">D</button>
+        </div>
+    </div>
+    <div class = "bottom">
+        <h1 id = "text" class = "animation">Press Key To Start</h1>
+    </div>
+    <button id = "restart" type = "button">RESTART</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
